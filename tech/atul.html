@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zebronics 21</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="adder.js"></script>
+    <style>.price,#txtTotal{text-align: right;}</style>
+</head>
+<body>
+    <table class="w-100 table table-stripped">
+        <thead class="sticky-top">
+            <tr class="bg-dark text-light">
+                <th>Component Name</th>
+                <th>Component Company</th>
+                <th>Specs</th>
+                <th>Component Price</th>
+            </tr>
+            <tr>
+                <th colspan="3">Total:</th>
+                <th id="txtTotal"></th>
+            </tr>
+            
+        </thead>
+        <tr>
+            <td>Mother Board</td>
+            <td>Zebronics</td>
+            <td></td>
+            <td class="price">3200</td>
+        </tr>
+        <tr>
+            <td>Processor</td>
+            <td>Intel</td>
+            <td>i3 3rd</td>
+            <td class="price">2500</td>
+        </tr>
+        <tr>
+            <td>HardDisk</td>
+            <td>Segate</td>
+            <td>1TB HDD</td>
+            <td class="price">3000</td>
+        </tr>
+        <tr>
+            <td>RAM</td>
+            <td>HyperX</td>
+            <td>8GB(Gaming)</td>
+            <td class="price">4000</td>
+        </tr>
+        <tr>
+            <td>Cabinate(Main Box)</td>
+            <td></td>
+            <td>Mid Term PC</td>
+            <td class="price">1000</td>
+        </tr>
+        <tr>
+            <td>Keyboard <br> Mouse <br>Combo</td>
+            <td>Logitech <br>or <br>Mechanincal</td>
+            <td>USB Input</td>
+            <td class="price">1200</td>
+        </tr>
+        <tr>
+            <td>SMPS</td>
+            <td>Zebronics <br>Intex</td>
+            <td></td>
+            <td class="price">1000</td>
+        </tr>
+        <tr>
+            <td>
+                Cables
+            </td>
+            <td></td>
+            <td></td>
+            <td class="price">300</td>
+        </tr>
+    </table>
+    <script>add();</script>
+</body>
+</html>
