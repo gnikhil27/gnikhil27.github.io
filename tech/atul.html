@@ -38,43 +38,56 @@
             <td>Mother Board</td>
             <td>Zebronics</td>
             <td rowspan="2"><select name="Gen" id="Gen" onchange="changeBoard(this);">    
-            </select></td>
+            </select>
+            <a href="#" id="mbURL"><span class="fas fa-info-circle"></span></a>
+        </td>
             <td class="price" id="mbPrice">3200</td>
             <tr>
         </tr>
             <td>Processor</td>
             <td>Intel i3</td>
-            <td></td>
+            <td><a href="#" id="procURL"><span class="fas fa-info-circle"></span></a></td>
             <td class="price" id="ProcPrice">2500</td>
         </tr>
         <tr>
             <td>HardDisk</td>
             <td>Segate</td>
-            <td><select name="hdd" id="hdd" onchange="changeHDD(this);"></select></td>
+            <td><select name="hdd" id="hdd" onchange="changeHDD(this);"></select>
+                <a href="#" id="hddURL"><span class="fas fa-info-circle"></span></a></td>
             <td class="price" id="hddPrice">3000</td>
         </tr>
         <tr>
+            <td>HardDisk(SSD)</td>
+            <td></td>
+            <td><select name="ssd" id="ssd" onchange="changeSSD(this);"></select>
+                <a href="#" id="ssdURL"><span class="fas fa-info-circle"></span></a></td>
+            <td class="price" id="ssdPrice">0</td>
+        </tr>
+        
+        <tr>
             <td>RAM</td>
             <td>HyperX</td>
-            <td><select name="ram" id="ram" onchange="changeRam(this);"></select></td>
+            <td><select name="ram" id="ram" onchange="changeRam(this);"></select>
+                <a href="#" id="ramURL"><span class="fas fa-info-circle"></span></a></td>
             <td class="price" id="ramPrice">3500</td>
         </tr>
         <tr>
             <td>Cabinate(Main Box)</td>
             <td></td>
-            <td>Mid Term PC</td>
+            <td>Mid Term PC<a href="#" id="cabURL"><span class="fas fa-info-circle"></span></a></td>
             <td class="price">1000</td>
         </tr>
         <tr>
             <td>Keyboard Mouse Combo</td>
             <td>Logitech</td>
-            <td><select name="KMC" id="KMC" onchange="changeKMC(this);"></select></td>
+            <td><select name="KMC" id="KMC" onchange="changeKMC(this);"></select>
+                <a href="#" id="kmcURL"><span class="fas fa-info-circle"></span></a></td>
             <td class="price" id="kmcPrice">700</td>
         </tr>
         <tr>
             <td>SMPS</td>
-            <td>Zebronics <br>Intex</td>
-            <td></td>
+            <td>Zebronics / Intex</td>
+            <td><a href="#" id="smpsURL"><span class="fas fa-info-circle"></span></a></td>
             <td class="price">1000</td>
         </tr>
         <tr>

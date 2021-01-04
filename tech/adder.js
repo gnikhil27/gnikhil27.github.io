@@ -1,9 +1,12 @@
 var GEN=["Gen3rd","Gen9th"];
 var HDD=["1TB","150GB","320GB","500GB"];
-var SSD=["None","120GB","240GB"];
+var SSD=["None","240GB"];
 var SCR=["None","15/16 inch","22 inch","32 inch"];
 var RAM=["8GB","4GB"];
 var KMC=["USB","WiFi"];
+var URL={
+    
+}
 function add()
 {
     var pr=document.getElementsByClassName("price");
@@ -24,6 +27,7 @@ function getAll()
 {
     toSelect(GEN,"Gen");
     toSelect(HDD,"hdd");
+    toSelect(SSD,"ssd");
     toSelect(SCR,"scr");
     toSelect(RAM,"ram");
     toSelect(KMC,"KMC");
@@ -78,5 +82,13 @@ function changeKMC(selScr){
         "WiFi":"1200"
     };
     document.getElementById("kmcPrice").innerHTML=hd[selScr.value];
+    add();
+}
+function changeSSD(selScr){
+    var hd={
+        "None":"0",
+        "240GB":"2400"
+    };
+    document.getElementById("ssdPrice").innerHTML=hd[selScr.value];
     add();
 }
