@@ -15,7 +15,9 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="adder.js"></script>
-    <style>.price,#txtTotal{text-align: right;}</style>
+    <style>.price,#txtTotal{text-align: right;}
+        select{background-color: white;}
+    </style>
 </head>
 <body>
     <table class="w-100 table table-stripped">
@@ -26,7 +28,7 @@
                 <th>Specs</th>
                 <th>Component Price</th>
             </tr>
-            <tr>
+            <tr class="bg-light">
                 <th colspan="3">Total:</th>
                 <th id="txtTotal"></th>
             </tr>
@@ -54,8 +56,8 @@
         <tr>
             <td>RAM</td>
             <td>HyperX</td>
-            <td>8GB(Gaming)</td>
-            <td class="price">4000</td>
+            <td><select name="ram" id="ram" onchange="changeRam(this);"></select></td>
+            <td class="price" id="ramPrice">3500</td>
         </tr>
         <tr>
             <td>Cabinate(Main Box)</td>
@@ -64,16 +66,29 @@
             <td class="price">1000</td>
         </tr>
         <tr>
-            <td>Keyboard <br> Mouse <br>Combo</td>
-            <td>Logitech <br>or <br>Mechanincal</td>
-            <td>USB Input</td>
-            <td class="price">1200</td>
+            <td>Keyboard Mouse Combo</td>
+            <td>Logitech</td>
+            <td><select name="KMC" id="KMC" onchange="changeKMC(this);"></select></td>
+            <td class="price" id="kmcPrice">700</td>
         </tr>
         <tr>
             <td>SMPS</td>
             <td>Zebronics <br>Intex</td>
             <td></td>
             <td class="price">1000</td>
+        </tr>
+        <tr>
+            <td>CPU Fan</td>
+            <td></td>
+            <td></td>
+            <td class="price">250</td>
+        </tr>
+        
+        <tr>
+            <td>Screen</td>
+            <td></td>
+            <td><select name="scr" id="scr" onchange="changeScr(this);"></select></td>
+            <td class="price" id="scrPrice">0</td>
         </tr>
         <tr>
             <td>
