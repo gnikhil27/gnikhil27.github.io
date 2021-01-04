@@ -17,7 +17,9 @@
     <script src="adder.js"></script>
     <style>.price,#txtTotal{text-align: right;}
         select{background-color: white;}
+        @media print{.npr{visibility: hidden;}th{color:black;}}
     </style>
+    <style type="text/css" media="print">@page { size: landscape; }</style>              
 </head>
 <body>
     <table class="w-100 table table-stripped">
@@ -29,7 +31,8 @@
                 <th>Component Price</th>
             </tr>
             <tr class="bg-light">
-                <th colspan="3">Total:</th>
+                <th>Total:</th>
+                <th colspan="2"><button class="npr btn-outline-dark" onclick="window.print();">Print</button></th>
                 <th id="txtTotal"></th>
             </tr>
             
