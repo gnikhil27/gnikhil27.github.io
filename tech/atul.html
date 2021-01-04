@@ -35,20 +35,21 @@
         <tr>
             <td>Mother Board</td>
             <td>Zebronics</td>
-            <td></td>
-            <td class="price">3200</td>
+            <td rowspan="2"><select name="Gen" id="Gen" onchange="changeBoard(this);">    
+            </select></td>
+            <td class="price" id="mbPrice">3200</td>
+            <tr>
         </tr>
-        <tr>
             <td>Processor</td>
-            <td>Intel</td>
-            <td>i3 3rd</td>
-            <td class="price">2500</td>
+            <td>Intel i3</td>
+            <td></td>
+            <td class="price" id="ProcPrice">2500</td>
         </tr>
         <tr>
             <td>HardDisk</td>
             <td>Segate</td>
-            <td>1TB HDD</td>
-            <td class="price">3000</td>
+            <td><select name="hdd" id="hdd" onchange="changeHDD(this);"></select></td>
+            <td class="price" id="hddPrice">3000</td>
         </tr>
         <tr>
             <td>RAM</td>
@@ -83,6 +84,6 @@
             <td class="price">300</td>
         </tr>
     </table>
-    <script>add();</script>
+    <script>getAll();</script>
 </body>
 </html>
