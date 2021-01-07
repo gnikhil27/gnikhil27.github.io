@@ -38,7 +38,7 @@ function includeHTML() {
 function add()
 {
     var pr=document.getElementsByClassName("price");
-    var tot=0;
+    var tot=500;
     for(var i=0;i<pr.length;i++)
     {
         tot+=parseInt(pr[i].innerHTML);
@@ -90,15 +90,16 @@ function changeScr(selScr){
     var hd={
         "None": "0",
         "15/16 inch": "1500",
-        "22 inch": "2500",
-        "32 inch": "5000"
+        "19 inch": "3000",
+        "22 inch": "3500",
+        "32 inch": "6100"
     };
     document.getElementById("scrPrice").innerHTML=hd[selScr.value];
     add();
 }
 function changeRam(selScr){
     var hd={
-        "4GB":"1600",
+        "4GB":"1800",
         "8GB":"3500"
     };
     document.getElementById("ramPrice").innerHTML=hd[selScr.value];
@@ -107,8 +108,8 @@ function changeRam(selScr){
 
 function changeKMC(selScr){
     var hd={
-        "USB":"700",
-        "WiFi":"1200"
+        "USB":"1000",
+        "WiFi":"1500"
     };
     document.getElementById("kmcPrice").innerHTML=hd[selScr.value];
     add();
