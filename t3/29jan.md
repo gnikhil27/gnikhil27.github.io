@@ -30,3 +30,20 @@ git clone https://___
 ```Add perticular files for Commiting the changes```
 - **(FILE) ".gitignore"**  
 ```To ignore file for not uploading```
+- **git commit**  
+```For Saving the changes for upload```
+
+# Version Control System (VCS)
+1. To follow heirarchy.
+2. To find which code is latest
+3. To manage difference in content of a same file
+
+## Revision Control System
+Local method v-1, v-2, v2.2
+
+## Centralized Version Control System
+
+
+## Distributed Version Control System(DVCS)
+- **eg :-**  
+    git : (DVCS)
