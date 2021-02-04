@@ -28,7 +28,8 @@ Docker has two types of repository Public/Private
 All software are called docker image.
 - **Docker Instance**  
 Runnig program of a image  
-
+- **Docker Host**  
+My pc on which docker is running
 
 # Docker Commands
 - docker run SoftwareName
