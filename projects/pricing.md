@@ -7,4 +7,6 @@
 |Junior Programmers|3000 Rs/[Month](a "or Whole Project")||Needs two for this project|6,000|
 |Senior Programmers|7000 Rs/[Month](a "or Whole Project")||Needs One for this Project|7,000|
 |Tracking System|[510 Rs/1000 Delevery](a "51 Paise per delivery")|https://cloud.google.com/maps-platform/pricing|Not Nessasary but if asked, Check Dynamic maps for Tracking|510 Rs / 1000 Deliveries|
-|**Total**||||**34,312 Rs**[```*```](a "Our Profit is yet to be added")|
+|Payment Gateway|1st year free|||2%|
+|SSL Certificate||||3600|
+|**Total**||||**38,912 Rs**[```*```](a "Our Profit is yet to be added")|
