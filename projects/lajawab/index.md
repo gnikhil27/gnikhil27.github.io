@@ -1,2 +1,2 @@
 # Lajawab PaniPuri
-* [Requirements added](changes.md "File containing new requirements")
+* [Requirements added](changes "File containing new requirements")
