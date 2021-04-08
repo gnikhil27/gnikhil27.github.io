@@ -1,0 +1,19 @@
+.darkMode{
+    color: white;
+    background-color: rgba(50,50,50,1);
+}
+a{
+    color: inherit;
+    font-weight: bolder;
+}
+details{
+    padding: 5px;
+    padding-bottom: 0px;
+    border: 1px solid;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 2px #bbbbbb;
+
+}
+details>summary{
+    border-bottom: 1px solid;
+}
