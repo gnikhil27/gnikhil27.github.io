@@ -1,0 +1,12 @@
+SELECT 
+bomlink.dpartno, 
+revision.partno, revision.revlevel,..., inventory.Description
+
+FROM 
+    inventory INNER JOIN revision
+        ON inventory.partno = revision.partno
+    INNER JOIN bomlink
+        ON bomlink.dpartno = inventory.partno
+
+WHERE
+    bomlink.mpartno = '$partno'
