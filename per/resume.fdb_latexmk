@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1631643300 "/home/nikhil/Desktop/repo/gnikhil27.github.io/per/resume.tex" "/home/nikhil/Desktop/repo/gnikhil27.github.io/per/resume.pdf" "resume" 1631643301
+["pdflatex"] 1631643507 "/home/nikhil/Desktop/repo/gnikhil27.github.io/per/resume.tex" "/home/nikhil/Desktop/repo/gnikhil27.github.io/per/resume.pdf" "resume" 1631643508
   "/etc/texmf/web2c/texmf.cnf" 1631612442 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/nikhil/Desktop/repo/gnikhil27.github.io/per/resume.aux" 1631643301 1753 082cb56d566a7e9eaa62d3b7efe7de20 ""
-  "/home/nikhil/Desktop/repo/gnikhil27.github.io/per/resume.tex" 1631643300 10653 51b4fbe1f1a8395c7c4a8457cf5032f4 ""
+  "/home/nikhil/Desktop/repo/gnikhil27.github.io/per/resume.aux" 1631643508 1755 17fb6f43f55daa98e3103644546a0480 ""
+  "/home/nikhil/Desktop/repo/gnikhil27.github.io/per/resume.tex" 1631643506 10655 e9b2677ec4796f1b3bd7fff06198ad7d ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc" 1570828436 3071 cfa92ee28d698dd9275559d9d1c3a233 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463430686 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -103,13 +103,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1631612502 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1631612554 8260090 18c19ca72ae959aad394fbbaaae44367 ""
-  "resume.aux" 1631643301 1753 082cb56d566a7e9eaa62d3b7efe7de20 "pdflatex"
-  "resume.out" 1631643300 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "resume.tex" 1631643300 10653 51b4fbe1f1a8395c7c4a8457cf5032f4 ""
+  "resume.aux" 1631643508 1755 17fb6f43f55daa98e3103644546a0480 "pdflatex"
+  "resume.out" 1631643507 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "resume.tex" 1631643506 10655 e9b2677ec4796f1b3bd7fff06198ad7d ""
   (generated)
-  "resume.aux"
-  "/home/nikhil/Desktop/repo/gnikhil27.github.io/per/resume.pdf"
   "resume.pdf"
   "resume.out"
-  "/home/nikhil/Desktop/repo/gnikhil27.github.io/per/resume.log"
   "resume.log"
+  "/home/nikhil/Desktop/repo/gnikhil27.github.io/per/resume.log"
+  "resume.aux"
+  "/home/nikhil/Desktop/repo/gnikhil27.github.io/per/resume.pdf"
