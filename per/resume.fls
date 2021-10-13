@@ -166,10 +166,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-Light-osf-t1.v
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Light-osf-t1--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-Bold-osf-t1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-t1--base.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-Book-osf-t1.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Book-osf-t1--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-LightItalic-osf-t1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-LightItalic-osf-t1--base.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-Book-osf-t1.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Book-osf-t1--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-Bold-osf-t1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-t1--base.tfm
 INPUT /home/nikhil/Desktop/repo/gnikhil27.github.io/per/resume.aux
