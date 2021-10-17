@@ -1,4 +1,0 @@
-- [Anime](anime.md)
-- [Manga](manga.md)
-- [TV Shows](tv.md)
-- [Movies](movie.md)
