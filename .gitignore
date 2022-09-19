@@ -1,1 +1,9 @@
 *.tex
+per/sample.txt
+per/resume.synctex.gz
+per/resume.log
+per/resume.synctex.gz
+per/resume.log
+per/resume.fls
+per/resume.fdb_latexmk
+per/resume.aux
