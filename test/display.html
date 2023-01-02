@@ -15,7 +15,7 @@ var getJSON = function(url, callback) {
     xhr.send();
 }
 	setInterval(
-		getJSON('file:///D:/D/Users/LDIT15-15-30-35/Desktop/sample.json',
+		getJSON('./sample.json',
 			function(err, data) {
 				  if (err !== null) {
 				    alert('Something went wrong: ' + err);
