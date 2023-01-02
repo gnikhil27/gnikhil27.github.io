@@ -1,0 +1,28 @@
+<script>
+var getJSON = function(url, callback) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url, true);
+    xhr.responseType = 'json';
+    xhr.onload = function() {
+      var status = xhr.status;
+      if (status === 200) {
+        document.write()
+      } else {
+	alert('Error');
+        callback(status, xhr.response);
+      }
+    };
+    xhr.send();
+}
+	setInterval(
+		getJSON('file:///D:/D/Users/LDIT15-15-30-35/Desktop/sample.json',
+			function(err, data) {
+				  if (err !== null) {
+				    alert('Something went wrong: ' + err);
+				  } else {
+				    document.write(data.text);
+				  }
+			}
+		)
+	, 1000);
+</script>
