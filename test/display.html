@@ -1,28 +1,14 @@
-<script>
-var getJSON = function(url, callback) {
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', url, true);
-    xhr.responseType = 'json';
-    xhr.onload = function() {
-      var status = xhr.status;
-      if (status === 200) {
-        document.write()
-      } else {
-	alert('Error');
-        callback(status, xhr.response);
-      }
-    };
-    xhr.send();
-}
-	setInterval(
-		getJSON('./sample.json',
-			function(err, data) {
-				  if (err !== null) {
-				    alert('Something went wrong: ' + err);
-				  } else {
-				    console.log(data.text);
-				  }
-			}
-		)
-	, 1000);
-</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reroute</title>
+</head>
+<body>
+  <h1>Welcome</h1>
+  <div id="data-text"></div>
+  <script src="load.js"></script>
+</body>
+</html>
