@@ -119,7 +119,7 @@ function setText(txt)
 }
 
 var xmlhttp = new XMLHttpRequest();
-    var url = "sample.json";
+    var url = 'sample.json?nocache=' + (new Date()).getTime();;
 
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
